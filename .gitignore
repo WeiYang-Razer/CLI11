@@ -22,3 +22,10 @@ a.out*
 
 /subprojects/Catch2-*
 /subprojects/packagecache
+
+# wyvrnpm-generated — do not commit
+/build/
+/wyvrn_internal/
+/wyvrn.lock
+/CMakePresets.json
+/CMakeUserPresets.json
