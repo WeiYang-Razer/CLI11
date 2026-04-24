@@ -1,0 +1,22 @@
+{
+  "name": "CLI11",
+  "version": "2.6.2.0",
+  "schemaVersion": 2,
+  "kind": "HeaderOnlyLib",
+  "description": "TODO: one-line description of CLI11",
+  "dependencies": {},
+  "build": {
+    "system": "cmake",
+    "configs": [
+      "Debug",
+      "Release",
+      "RelWithDebInfo",
+      "MinSizeRel"
+    ],
+    "configure": [
+      "-DCLI11_BUILD_TESTS=OFF",
+      "-DCLI11_BUILD_EXAMPLES=OFF"
+    ],
+    "installDir": "install"
+  }
+}
