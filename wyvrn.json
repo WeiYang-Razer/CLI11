@@ -3,10 +3,15 @@
   "version": "2.6.2.0",
   "schemaVersion": 2,
   "kind": "HeaderOnlyLib",
-  "description": "TODO: one-line description of CLI11",
+  "description": "Command line parser for C++11 and beyond; header-only, single-file, feature-rich with subcommands, flags, options, and config file support",
   "dependencies": {},
   "build": {
     "system": "cmake",
+    "generator": [
+      "Ninja Multi-Config",
+      "Visual Studio 17 2022",
+      "Visual Studio 16 2019"
+    ],
     "configs": [
       "Debug",
       "Release",
@@ -18,5 +23,13 @@
       "-DCLI11_BUILD_EXAMPLES=OFF"
     ],
     "installDir": "install"
+  },
+  "compatibility": {
+    "os": "exact",
+    "arch": "exact",
+    "compiler": "exact",
+    "compiler.version": "exact-or-newer",
+    "compiler.cppstd": "exact-or-newer",
+    "compiler.runtime": "exact"
   }
 }

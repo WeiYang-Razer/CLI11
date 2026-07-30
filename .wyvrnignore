@@ -34,3 +34,6 @@ appveyor.yml
 *.autopkg
 library.json
 package.json
+
+
+src/
